@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Encriptador</title>
+	<link rel="stylesheet" type="text/css" href="css/estilos.css">
+</head>
+<body>
+
+	<header>
+		
+	 	<h1>Encriptando</h1>
+
+	</header>
+	
+	<main class="container">
+		
+		<section>
+			
+			<form>
+			<p>Ingrese su texto</p>
+			<textarea type="text" name="input-text" placeholder="Escriba aqui..." id="text-input"></textarea>
+			</form>
+			<input type="submit" value="Encriptar" class="btn" id="btn-encriptar">
+			<input type="submit" value="Desencriptar" class="btn" id="btn-desencriptar">
+
+			<span class="invisible">No se permiten mayusculas, acentos o caracteres especiales</span>
+
+		</section>
+				
+		<section>
+			<p>Mensaje</p>
+			<textarea type="text" name="input-text-received" id="txt-received"></textarea>
+			<input type="submit" value="Copiar" class="btn" id="btn-copy">
+			<span class="invisibleCopy">Texto copiado</span>
+		</section>
+
+	</main>
+
+	<footer>
+		
+		<p>Hecho por <a href="">danielbarros_01</a></p>
+
+	</footer>
+
+	<script src="js/encriptar.js"></script>
+	<script src="js/copiar.js"></script>
+</body>
+
+</html>

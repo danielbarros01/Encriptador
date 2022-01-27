@@ -1,0 +1,102 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/*..........*/
+
+body{
+	font-family: 'Roboto', sans-serif;
+}
+
+h1{
+	font-size: 3em;
+	color: #1A1A40;
+}
+
+header{
+	text-align: center;
+	margin-top: 1em;
+	margin-bottom: 1em;
+}
+
+
+main{
+	background-color: #1A1A40;
+
+	display: inline-block;
+	margin: auto;
+	width: 100%;
+
+}
+
+section{
+	background-color: #270082;
+	margin: 2%;
+	width: 45%;
+	float: left;
+	text-align: center;
+	border-radius: 10px;
+}
+
+main p{
+	color: white;
+	font-weight: bold;
+	padding: 2%;
+}
+
+textarea{
+	display: block;
+	width: 80%;
+	height: 8em;
+	margin: auto;
+	border-radius: 5px;
+	padding: 2%;
+	resize: none;
+	font-size: 1.5em;
+}
+
+footer{
+	text-align: center;
+	margin: 2%;
+}
+
+span{
+	display: block;
+	text-align: center;
+	color: red;
+	font-weight: bold;
+}
+
+.invisible, .invisibleCopy{
+	display: none;
+	transition: 0.5s;
+}
+
+
+input[type="submit"]{
+	font-size: 1em;
+	padding: 1%;
+	margin: 2%;
+	background-color: #FA58B6;
+	color: white;
+	border-radius: 10px;
+	border: none;
+}
+
+input[type="submit"]:hover{
+	background-color: #FFADF0;
+	cursor: pointer;
+}
+
+/*Responsive*/
+
+@media screen and (max-width: 800px){
+	section{
+		width: 60%;
+		display: block;
+		float: none;
+		margin-left: auto;
+		margin-right: auto;
+	}
+}
